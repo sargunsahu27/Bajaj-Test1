@@ -19,7 +19,7 @@ function App() {
         .filter((item) => item !== "");
 
       const response = await axios.post(
-        "http://localhost:3000/bfhl",
+        " https://bajaj-test1-6phq.onrender.com/bfhl",
         { data }
       );
 
